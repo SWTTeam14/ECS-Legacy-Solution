@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace ECS1._1
 {
-    class Program
+    interface IHeater
     {
-        static void Main(string[] args)
-        {
-        }
+        void TurnOn();
+        void TurnOff();
+        bool RunSelfTest();
     }
 }
