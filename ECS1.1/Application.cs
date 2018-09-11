@@ -10,7 +10,7 @@ namespace ECS1._1
     {
         public static void Main(string[] args)
         {
-            var ecs = new ECS(new Tempsensor(), new Heater());
+            var ecs = new ECS(28, new Tempsensor(), new Heater());
 
             ecs.Regulate();
 

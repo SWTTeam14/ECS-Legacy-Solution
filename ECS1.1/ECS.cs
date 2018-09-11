@@ -12,9 +12,10 @@ namespace ECS1._1
         private readonly ITempsensor _tempSensor;
         private readonly IHeater _heater;
 
-        public ECS(ITempsensor tempsensor, IHeater heater)
+        public ECS(int thr, ITempsensor tempSensor, IHeater heater)
         {
-            _tempSensor = tempsensor;
+            SetThreshold(thr);
+            _tempSensor = tempSensor;
             _heater = heater;
         }
 
