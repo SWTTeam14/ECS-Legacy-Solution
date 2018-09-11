@@ -17,6 +17,8 @@ namespace ECS1._1
             ecs.SetThreshold(20);
 
             ecs.Regulate();
+
+            Console.ReadKey();
         }
 
     }
