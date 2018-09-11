@@ -2,7 +2,6 @@
 {
     public class ECS
     {
-        // Hej anne
         private int _threshold;
         private readonly TempSensor _tempSensor;
         private readonly Heater _heater;
